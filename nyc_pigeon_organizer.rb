@@ -11,10 +11,10 @@ def nyc_pigeon_organizer(data)
             pigeon_by_name[individuals][categories] = []
           end
           pigeon_by_name[individuals][categories].push(specifics.to_s)
-          pigeon_by_name
         end
       end
     end
+    pigeon_by_name
   end
 
 
